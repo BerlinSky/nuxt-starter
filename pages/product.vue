@@ -5,9 +5,34 @@
   </div>
 </template>
 
-<style>
-.container {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  padding: 60px;
-}
+<style scoped>
+  .page-enter-active, .page-leave-active {
+    transition: all .25s ease-out;
+  }
+  .page-enter, .page-leave-active {
+    opacity: 0;
+    transform-origin: 50% 50%;
+  }
+
+  html, body {
+    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+    background: #222;
+
+    color: white;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  a, a:visited {
+    color: #3edada;
+    text-decoration: none;
+  }
+
+  .container {
+    background: #444;
+    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+    padding: 60px;
+    width: 100vw;
+    height: 100vh;
+  }
 </style>
