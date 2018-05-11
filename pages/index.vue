@@ -3,6 +3,8 @@
     <h1>Welcome!</h1>
     <p><nuxt-link to="/product">Product page</nuxt-link></p>
     <p><nuxt-link to="/contact">Contact page</nuxt-link></p>
+    <p><nuxt-link to="/user/">User page</nuxt-link></p>
+    <p><nuxt-link to="/user/one">User / One page</nuxt-link></p>
   </div>
 </template>
 
@@ -19,11 +21,11 @@
 
   .page-enter-active {
     animation: acrossIn .45s ease-out both;
-  } 
+  }
 
   .page-leave-active {
     animation: acrossOut .65s ease-in both;
-  } 
+  }
 
   @keyframes acrossIn {
     0% {
