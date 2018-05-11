@@ -5,6 +5,7 @@
     <p><nuxt-link to="/contact">Contact page</nuxt-link></p>
     <p><nuxt-link to="/user/">User page</nuxt-link></p>
     <p><nuxt-link to="/user/one">User / One page</nuxt-link></p>
+    <p><nuxt-link to="/users/:id5">User / _id page</nuxt-link></p>
   </div>
 </template>
 
