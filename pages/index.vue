@@ -6,8 +6,9 @@
     <p><nuxt-link to="/user/">User page</nuxt-link></p>
     <p><nuxt-link to="/user/one">User / One page</nuxt-link></p>
     <p><nuxt-link to="/users/:id5">User / _id page</nuxt-link></p>
-    <p><nuxt-link to="/:slug/:id5">User / _id page</nuxt-link></p>
-    <p><nuxt-link to="/users">Slug / Index Page</nuxt-link></p>
+    <p><nuxt-link to="/:slug/:id5">Slug / _id page</nuxt-link></p>
+    <p><nuxt-link to="/slug/">Slug / Index Page</nuxt-link></p>
+     <nuxt-link to="/about/">About page</nuxt-link>
   </div>
 </template>
 
@@ -70,3 +71,11 @@
   }
 
 </style>
+
+<script>
+  export default {
+    head: {
+      title: 'Home page'
+    }
+  }
+</script>
