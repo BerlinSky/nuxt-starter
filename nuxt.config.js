@@ -28,5 +28,12 @@ module.exports = {
     */
     // color: '#DBE1EC'
     // background: 'white'
+  },
+  build: {
+    postcss: [
+      require('postcss-nested')(),
+      require('postcss-responsive-type')(),
+      require('postcss-hexrgba')(),
+    ]
   }
 }

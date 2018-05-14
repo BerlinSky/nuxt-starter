@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Hi from {{ name }}</p>
+    <p class="title">Hi <span class="hightlight">Mr. Smith</span> {{ name }}</p>
     <nuxt-link to="/">Home page</nuxt-link>
   </div>
 </template>
@@ -15,3 +15,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.title {
+  color: red;
+
+  .hightlight {
+    font-weight: 800;
+    color: yellowgreen;
+  }
+}
+</style>
