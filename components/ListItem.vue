@@ -26,29 +26,28 @@ export default {
     > * {
       flex: 1 100%;
     }
+
+    .product {
+      font-weight: bold;
+      text-align: left;
+
+      flex: 1 50%;
+    }
+
+    .quantity {
+      // position: absolute;
+      // right: 80px;
+      flex: 1 40%;
+
+    }
+
+    .cost {
+      // position: absolute;
+      // right: 0;
+      text-align: right;
+      flex: 1 10%;
+    }
   }
 
-
-  .product {
-    font-weight: bold;
-    text-align: left;
-
-    flex: 1 50%;
-  }
-
-  .quantity {
-    // position: absolute;
-    // right: 80px;
-    flex: 1 40%;
-
-  }
-
-  .cost {
-    // position: absolute;
-    // right: 0;
-    text-align: right;
-    flex: 1 10%;
-
-  }
 </style>
 
