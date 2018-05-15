@@ -2,9 +2,12 @@
   <div class="container">
     <h1>Welcome!</h1>
     <p>
-      <nuxt-link to="/about/">About page</nuxt-link>
+      <nuxt-link to="/shopping-list/">Shopping List</nuxt-link>
     </p>
 
+    <p>
+      <nuxt-link to="/about/">About page</nuxt-link>
+    </p>
     <p><nuxt-link to="/product">Product page</nuxt-link></p>
     <p><nuxt-link to="/contact">Contact page</nuxt-link></p>
     <p><nuxt-link to="/user/">User page</nuxt-link></p>
