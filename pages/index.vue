@@ -4,6 +4,9 @@
     <p>
       <nuxt-link to="/shopping-list/">Shopping List</nuxt-link>
     </p>
+    <p>
+      <nuxt-link to="/shopping-widget/">Shopping Widget</nuxt-link>
+    </p>
 
     <p>
       <nuxt-link to="/about/">About page</nuxt-link>
