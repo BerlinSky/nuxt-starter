@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import ListItem from './listItem'
+import ListItem from '~/components/listItem.vue'
 
 const products = [
   {
