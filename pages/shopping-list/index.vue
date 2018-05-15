@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <nuxt-link to="/">Home page</nuxt-link>
+  <div class="shoppingList">
+    <div>
+      <nuxt-link to="/">Home page</nuxt-link>
+    </div>
 
     <div class="cart">
       <h2>Shopping List</h2>
@@ -72,52 +74,55 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .shoppingList {
+    width: 100%;
+    height: 100%;
+
+    padding: 50px;
+  }
   .cart {
-    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     border: 1px solid;
-    width: 400px;
-    height: 420px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    overflow: hidden;
     padding: 10px;
     box-sizing: border-box;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
 
     h2 {
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    font-weight: normal;
-    font-size: 26px;
+      height: 50px;
+      padding: 0px;
+      margin: 0px;
+      font-weight: normal;
+      font-size: 26px;
     }
   }
 
   .list {
-    position: absolute;
-    top: 70px;
     margin: 0px;
-    padding: 0px;
-    left: 30px;
+    padding: 10px;
 
     li {
-      position: relative;
-      width: 350px;
+
+      // position: relative;
+      // width: 350px;
+      margin-left: 30px;
       padding-bottom: 20px;
       font-size: 13px;
     }
   }
 
   .totals {
-    position: absolute;
+    // position: absolute;
+    margin-top: 10px;
+    height: 50x;
     border-top: 1px solid black;
-    bottom: 00px;
-    width: 377px;
-    text-align: right;
+    // bottom: 00px;
+    // width: 377px;
+    // text-align: right;
     line-height: 30px;
     font-size: 14px;
     font-weight: bold;
