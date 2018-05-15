@@ -2,6 +2,9 @@
   <div class="container">
     <h1>Welcome!</h1>
     <p>
+      <nuxt-link to="/range-slider/">Range Slider</nuxt-link>
+    </p>
+    <p>
       <nuxt-link to="/shopping-list/">Shopping List</nuxt-link>
     </p>
     <p>
