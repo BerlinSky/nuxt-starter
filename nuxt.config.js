@@ -13,6 +13,12 @@ module.exports = {
   css: [
     '~/css/main.css'
   ],
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+    // proxyHeaders: false
+  },
    /*
   ** Customize loading indicator
   */

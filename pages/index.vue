@@ -2,14 +2,14 @@
   <div class="container">
     <h1>Welcome!</h1>
     <p>
+      <nuxt-link to="/foreign-exchange/">Currency Convertor</nuxt-link>
+    </p>
+    <p>
       <nuxt-link to="/range-slider/">Range Slider</nuxt-link>
     </p>
-    <p>
-      <nuxt-link to="/shopping-list/">Shopping List</nuxt-link>
-    </p>
-    <p>
-      <nuxt-link to="/shopping-widget/">Shopping Widget</nuxt-link>
-    </p>
+    <p><nuxt-link to="/shopping-list/">Shopping List</nuxt-link></p>
+
+    <p><nuxt-link to="/shopping-widget/">Shopping Widget</nuxt-link></p>
 
     <p>
       <nuxt-link to="/about/">About page</nuxt-link>
